@@ -123,7 +123,7 @@ namespace tictactoe_final
             catch { }
         }
 
-        private void aBOUTToolStripMenuItem_Click(object sender, EventArgs e)
+        private void aBOUTToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Created by Hans Orozco from BSCOE 1-4. " +
                "This is a 2 Player game, developed to challenge one another. " +

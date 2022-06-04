@@ -33,8 +33,7 @@
             this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nEWGAMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hELPToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aBOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBOUTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.A1 = new System.Windows.Forms.Button();
             this.A2 = new System.Windows.Forms.Button();
             this.A3 = new System.Windows.Forms.Button();
@@ -52,8 +51,7 @@
             this.menuStrip2.BackColor = System.Drawing.Color.Transparent;
             this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fILEToolStripMenuItem,
-            this.hELPToolStripMenuItem});
+            this.fILEToolStripMenuItem});
             this.menuStrip2.Location = new System.Drawing.Point(0, 0);
             this.menuStrip2.Name = "menuStrip2";
             this.menuStrip2.Size = new System.Drawing.Size(926, 32);
@@ -63,15 +61,16 @@
             // 
             // fILEToolStripMenuItem
             // 
-            this.fILEToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.fILEToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.fILEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.nEWGAMEToolStripMenuItem,
-            this.eXITToolStripMenuItem});
+            this.eXITToolStripMenuItem,
+            this.aBOUTToolStripMenuItem1});
             this.fILEToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.fILEToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
             this.fILEToolStripMenuItem.Name = "fILEToolStripMenuItem";
-            this.fILEToolStripMenuItem.Size = new System.Drawing.Size(79, 28);
-            this.fILEToolStripMenuItem.Text = "FILE";
+            this.fILEToolStripMenuItem.Size = new System.Drawing.Size(94, 28);
+            this.fILEToolStripMenuItem.Text = "MENU";
             // 
             // nEWGAMEToolStripMenuItem
             // 
@@ -94,26 +93,15 @@
             this.eXITToolStripMenuItem.Text = "EXIT";
             this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
             // 
-            // hELPToolStripMenuItem
+            // aBOUTToolStripMenuItem1
             // 
-            this.hELPToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.hELPToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aBOUTToolStripMenuItem});
-            this.hELPToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hELPToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.hELPToolStripMenuItem.Name = "hELPToolStripMenuItem";
-            this.hELPToolStripMenuItem.Size = new System.Drawing.Size(90, 28);
-            this.hELPToolStripMenuItem.Text = "HELP";
-            // 
-            // aBOUTToolStripMenuItem
-            // 
-            this.aBOUTToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.aBOUTToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.aBOUTToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aBOUTToolStripMenuItem.Image")));
-            this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
-            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
-            this.aBOUTToolStripMenuItem.Text = "ABOUT";
-            this.aBOUTToolStripMenuItem.Click += new System.EventHandler(this.aBOUTToolStripMenuItem_Click);
+            this.aBOUTToolStripMenuItem1.BackColor = System.Drawing.Color.Black;
+            this.aBOUTToolStripMenuItem1.ForeColor = System.Drawing.Color.Red;
+            this.aBOUTToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("aBOUTToolStripMenuItem1.Image")));
+            this.aBOUTToolStripMenuItem1.Name = "aBOUTToolStripMenuItem1";
+            this.aBOUTToolStripMenuItem1.Size = new System.Drawing.Size(224, 28);
+            this.aBOUTToolStripMenuItem1.Text = "ABOUT ";
+            this.aBOUTToolStripMenuItem1.Click += new System.EventHandler(this.aBOUTToolStripMenuItem1_Click);
             // 
             // A1
             // 
@@ -265,8 +253,6 @@
         private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nEWGAMEToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hELPToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aBOUTToolStripMenuItem;
         private System.Windows.Forms.Button A1;
         private System.Windows.Forms.Button A2;
         private System.Windows.Forms.Button A3;
@@ -276,6 +262,7 @@
         private System.Windows.Forms.Button C1;
         private System.Windows.Forms.Button C2;
         private System.Windows.Forms.Button C3;
+        private System.Windows.Forms.ToolStripMenuItem aBOUTToolStripMenuItem1;
     }
 }
 
