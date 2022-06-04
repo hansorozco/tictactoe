@@ -127,7 +127,8 @@ namespace tictactoe_final
         {
             MessageBox.Show("Created by Hans Orozco from BSCOE 1-4. " +
                "This is a 2 Player game, developed to challenge one another. " +
-                "Please enjoy the Game.");
+                "Please enjoy the Game. " +
+                " If you look closely at the menu strip you will see something.");
         }
     }
 }

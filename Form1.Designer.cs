@@ -77,6 +77,7 @@
             // 
             this.nEWGAMEToolStripMenuItem.BackColor = System.Drawing.Color.Black;
             this.nEWGAMEToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.nEWGAMEToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nEWGAMEToolStripMenuItem.Image")));
             this.nEWGAMEToolStripMenuItem.Name = "nEWGAMEToolStripMenuItem";
             this.nEWGAMEToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.nEWGAMEToolStripMenuItem.Text = "NEW GAME";
@@ -86,6 +87,7 @@
             // 
             this.eXITToolStripMenuItem.BackColor = System.Drawing.Color.Black;
             this.eXITToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.eXITToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eXITToolStripMenuItem.Image")));
             this.eXITToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
             this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
             this.eXITToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
@@ -107,8 +109,9 @@
             // 
             this.aBOUTToolStripMenuItem.BackColor = System.Drawing.Color.Black;
             this.aBOUTToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
+            this.aBOUTToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aBOUTToolStripMenuItem.Image")));
             this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
-            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(180, 28);
+            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
             this.aBOUTToolStripMenuItem.Text = "ABOUT";
             this.aBOUTToolStripMenuItem.Click += new System.EventHandler(this.aBOUTToolStripMenuItem_Click);
             // 
