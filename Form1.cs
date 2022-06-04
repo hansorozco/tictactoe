@@ -25,7 +25,6 @@ namespace tictactoe_final
             
         }
 
-
         private void eXITToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -81,12 +80,12 @@ namespace tictactoe_final
                 else
                     winner = "X";
 
-                MessageBox.Show(winner + " Wins!", "Congratulations!");
+                MessageBox.Show(                               winner + " Wins!", "You're Amazing Senpai!");
             }//end if
             else
             {
                 if (turn_count == 9)
-                    MessageBox.Show(" Draw!", "Pretty Sad!");
+                    MessageBox.Show("                         Draw!", "You Suck, Better luck Next Time!");
             }
         }//end checkForWinner
         
