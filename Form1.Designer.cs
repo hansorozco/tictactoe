@@ -29,11 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip2 = new System.Windows.Forms.MenuStrip();
-            this.fILEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.nEWGAMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aBOUTToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.A1 = new System.Windows.Forms.Button();
             this.A2 = new System.Windows.Forms.Button();
             this.A3 = new System.Windows.Forms.Button();
@@ -44,65 +39,13 @@
             this.C2 = new System.Windows.Forms.Button();
             this.C3 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.menuStrip2.SuspendLayout();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.mENUToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nEWGAMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.eXITToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBOUTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // menuStrip2
-            // 
-            this.menuStrip2.BackColor = System.Drawing.Color.Transparent;
-            this.menuStrip2.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fILEToolStripMenuItem});
-            this.menuStrip2.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip2.Name = "menuStrip2";
-            this.menuStrip2.Size = new System.Drawing.Size(926, 32);
-            this.menuStrip2.Stretch = false;
-            this.menuStrip2.TabIndex = 1;
-            this.menuStrip2.Text = "menuStrip2";
-            // 
-            // fILEToolStripMenuItem
-            // 
-            this.fILEToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.fILEToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nEWGAMEToolStripMenuItem,
-            this.eXITToolStripMenuItem,
-            this.aBOUTToolStripMenuItem1});
-            this.fILEToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.fILEToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.fILEToolStripMenuItem.Name = "fILEToolStripMenuItem";
-            this.fILEToolStripMenuItem.Size = new System.Drawing.Size(94, 28);
-            this.fILEToolStripMenuItem.Text = "MENU";
-            // 
-            // nEWGAMEToolStripMenuItem
-            // 
-            this.nEWGAMEToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.nEWGAMEToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.nEWGAMEToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nEWGAMEToolStripMenuItem.Image")));
-            this.nEWGAMEToolStripMenuItem.Name = "nEWGAMEToolStripMenuItem";
-            this.nEWGAMEToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
-            this.nEWGAMEToolStripMenuItem.Text = "NEW GAME";
-            this.nEWGAMEToolStripMenuItem.Click += new System.EventHandler(this.newgame);
-            // 
-            // eXITToolStripMenuItem
-            // 
-            this.eXITToolStripMenuItem.BackColor = System.Drawing.Color.Black;
-            this.eXITToolStripMenuItem.ForeColor = System.Drawing.Color.Red;
-            this.eXITToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eXITToolStripMenuItem.Image")));
-            this.eXITToolStripMenuItem.ImageTransparentColor = System.Drawing.Color.Black;
-            this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
-            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
-            this.eXITToolStripMenuItem.Text = "EXIT";
-            this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click);
-            // 
-            // aBOUTToolStripMenuItem1
-            // 
-            this.aBOUTToolStripMenuItem1.BackColor = System.Drawing.Color.Black;
-            this.aBOUTToolStripMenuItem1.ForeColor = System.Drawing.Color.Red;
-            this.aBOUTToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("aBOUTToolStripMenuItem1.Image")));
-            this.aBOUTToolStripMenuItem1.Name = "aBOUTToolStripMenuItem1";
-            this.aBOUTToolStripMenuItem1.Size = new System.Drawing.Size(224, 28);
-            this.aBOUTToolStripMenuItem1.Text = "ABOUT ";
-            this.aBOUTToolStripMenuItem1.Click += new System.EventHandler(this.aBOUTToolStripMenuItem1_Click);
             // 
             // A1
             // 
@@ -233,10 +176,67 @@
             this.label1.TabIndex = 11;
             this.label1.Text = "STRIX TIC TAC TOE";
             // 
+            // menuStrip1
+            // 
+            this.menuStrip1.BackColor = System.Drawing.Color.Transparent;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.mENUToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(926, 32);
+            this.menuStrip1.TabIndex = 12;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // mENUToolStripMenuItem
+            // 
+            this.mENUToolStripMenuItem.BackColor = System.Drawing.Color.Black;
+            this.mENUToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nEWGAMEToolStripMenuItem,
+            this.eXITToolStripMenuItem,
+            this.aBOUTToolStripMenuItem});
+            this.mENUToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.mENUToolStripMenuItem.ForeColor = System.Drawing.Color.Crimson;
+            this.mENUToolStripMenuItem.Name = "mENUToolStripMenuItem";
+            this.mENUToolStripMenuItem.Size = new System.Drawing.Size(94, 28);
+            this.mENUToolStripMenuItem.Text = "MENU";
+            // 
+            // nEWGAMEToolStripMenuItem
+            // 
+            this.nEWGAMEToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nEWGAMEToolStripMenuItem.ForeColor = System.Drawing.Color.Crimson;
+            this.nEWGAMEToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("nEWGAMEToolStripMenuItem.Image")));
+            this.nEWGAMEToolStripMenuItem.Name = "nEWGAMEToolStripMenuItem";
+            this.nEWGAMEToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+            this.nEWGAMEToolStripMenuItem.Tag = "";
+            this.nEWGAMEToolStripMenuItem.Text = "NEW GAME";
+            this.nEWGAMEToolStripMenuItem.Click += new System.EventHandler(this.nEWGAMEToolStripMenuItem_Click);
+            // 
+            // eXITToolStripMenuItem
+            // 
+            this.eXITToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.eXITToolStripMenuItem.ForeColor = System.Drawing.Color.Crimson;
+            this.eXITToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("eXITToolStripMenuItem.Image")));
+            this.eXITToolStripMenuItem.Name = "eXITToolStripMenuItem";
+            this.eXITToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+            this.eXITToolStripMenuItem.Text = "EXIT";
+            this.eXITToolStripMenuItem.Click += new System.EventHandler(this.eXITToolStripMenuItem_Click_1);
+            // 
+            // aBOUTToolStripMenuItem
+            // 
+            this.aBOUTToolStripMenuItem.Font = new System.Drawing.Font("ROG Fonts", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.aBOUTToolStripMenuItem.ForeColor = System.Drawing.Color.Crimson;
+            this.aBOUTToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("aBOUTToolStripMenuItem.Image")));
+            this.aBOUTToolStripMenuItem.Name = "aBOUTToolStripMenuItem";
+            this.aBOUTToolStripMenuItem.Size = new System.Drawing.Size(224, 28);
+            this.aBOUTToolStripMenuItem.Text = "ABOUT";
+            this.aBOUTToolStripMenuItem.Click += new System.EventHandler(this.aBOUTToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(926, 617);
@@ -250,23 +250,22 @@
             this.Controls.Add(this.A3);
             this.Controls.Add(this.A2);
             this.Controls.Add(this.A1);
-            this.Controls.Add(this.menuStrip2);
+            this.Controls.Add(this.menuStrip1);
             this.ForeColor = System.Drawing.SystemColors.Control;
+            this.MainMenuStrip = this.menuStrip1;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip2.ResumeLayout(false);
-            this.menuStrip2.PerformLayout();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.MenuStrip menuStrip2;
-        private System.Windows.Forms.ToolStripMenuItem fILEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem nEWGAMEToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
         private System.Windows.Forms.Button A1;
         private System.Windows.Forms.Button A2;
         private System.Windows.Forms.Button A3;
@@ -276,8 +275,12 @@
         private System.Windows.Forms.Button C1;
         private System.Windows.Forms.Button C2;
         private System.Windows.Forms.Button C3;
-        private System.Windows.Forms.ToolStripMenuItem aBOUTToolStripMenuItem1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem mENUToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nEWGAMEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem eXITToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aBOUTToolStripMenuItem;
     }
 }
 
